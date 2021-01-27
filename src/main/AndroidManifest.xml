@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.freelancer13">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".freelancerlogin"></activity>
+        <activity android:name=".userlogin" />
+        <activity android:name=".welcome" />
+        <activity android:name=".viewprojectowner" />
+        <activity android:name=".viewbid" />
+        <activity android:name=".home1" />
+        <activity android:name=".medium" />
+        <activity android:name=".signup" />
+        <activity android:name=".relatedproject" />
+        <activity android:name=".displayproject" />
+        <activity android:name=".search" />
+        <activity android:name=".viewproject" />
+        <activity android:name=".postproject" />
+        <activity android:name=".projectgiver" />
+        <activity android:name=".home" />
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

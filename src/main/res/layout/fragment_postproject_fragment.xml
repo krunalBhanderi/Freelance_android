@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    >
+
+    <EditText
+        android:id="@+id/title"
+        android:layout_width="289dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter the title"/>
+
+    <EditText
+        android:id="@+id/description"
+        android:layout_width="289dp"
+        android:layout_height="wrap_content"
+        android:hint="enter description"/>
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="275dp"
+        android:layout_height="136dp"
+
+        />
+
+
+    <EditText
+        android:id="@+id/time"
+        android:layout_width="285dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter time"/>
+
+
+    <EditText
+        android:id="@+id/budget"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter budget"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/skills"
+        android:hint="required skills"/>
+
+
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="293dp"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        />
+
+
+
+</LinearLayout>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/bg_login"
+    android:orientation="vertical"
+    >
+
+
+
+
+    <EditText
+        android:id="@+id/gmail"
+        android:layout_width="322dp"
+        android:layout_height="74dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edit_bg"
+        android:hint="Email Address"
+        android:padding="16dp"
+        android:textColorHint="@color/login_form_details" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="322dp"
+        android:layout_height="74dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/edit_bg"
+        android:hint="Name"
+        android:padding="16dp"
+        android:textColorHint="@color/login_form_details" />
+
+    <EditText
+        android:layout_width="322dp"
+        android:layout_height="74dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="16dp"
+        android:hint="password"
+        android:id="@+id/password"
+        android:background="@drawable/edit_bg"
+        android:inputType="textPassword"
+        android:padding="16dp"
+        android:textColorHint="@color/login_form_details"/>
+
+    <MultiAutoCompleteTextView
+        android:layout_width="322dp"
+        android:layout_height="92dp"
+        android:layout_marginLeft="20dp"
+        android:hint="Skills"
+        android:textColor="@color/login_form_details"
+        android:layout_marginTop="20dp"
+        android:id="@+id/skills"
+        android:background="@drawable/edit_bg"
+        />
+
+    <Spinner
+        android:background="@drawable/edit_bg"
+        android:id="@+id/education"
+        android:layout_width="326dp"
+        android:layout_height="83dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"></Spinner>
+
+    <Button
+        android:layout_width="316dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/btn_bg"
+        android:text="Sign Up"
+        android:textAllCaps="false"
+        android:id="@+id/signup"
+        android:textColor="@color/login_form_details" />
+
+
+
+</LinearLayout>

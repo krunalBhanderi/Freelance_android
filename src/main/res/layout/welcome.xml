@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_login">
+
+    <ImageView
+        android:layout_width="277dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:layout_width="209dp"
+        android:layout_height="71dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:text="Enter As "
+        android:textAlignment="center"
+        android:textColor="@color/login_form_details"
+        android:textSize="35dp" />
+
+    <Button
+        android:id="@+id/user"
+        android:layout_width="281dp"
+        android:layout_height="71dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn_bg"
+        android:text="User"
+        android:textColor="@color/login_form_details" />
+
+    <Button
+        android:id="@+id/freelancer"
+        android:layout_width="281dp"
+        android:layout_height="83dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn_bg"
+        android:text="Freelancer"
+        android:textColor="@color/login_form_details" />
+</LinearLayout>

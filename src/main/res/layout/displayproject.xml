@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@drawable/bg_login"
+
+    >
+
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="333dp"
+        android:layout_height="79dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/edit_bg"
+        android:hint="Title"
+
+        android:textColor="@color/login_form_details"
+        android:textSize="30dp" />
+
+
+    <LinearLayout
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="105dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/type"
+            android:layout_width="170dp"
+            android:layout_height="101dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/edit_bg"
+            android:hint="type"
+            android:lines="@integer/google_play_services_version"
+            android:textAlignment="center"
+            android:textColor="@color/login_form_details" />
+
+        <TextView
+            android:id="@+id/skills"
+            android:layout_width="174dp"
+            android:layout_height="101dp"
+
+            android:background="@drawable/edit_bg"
+            android:textColor="@color/login_form_details"
+            android:hint="skills"
+            android:textAlignment="center" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="115dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+
+            android:id="@+id/time"
+            android:layout_width="170dp"
+            android:layout_height="99dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/edit_bg"
+            android:hint="Time"
+            android:textAlignment="center"
+            android:textColor="@color/login_form_details" />
+
+        <TextView
+
+            android:background="@drawable/edit_bg"
+            android:textColor="@color/login_form_details"
+            android:id="@+id/budget"
+            android:layout_width="174dp"
+            android:layout_height="99dp"
+            android:hint="Budget"
+            android:textAlignment="center" />
+
+
+    </LinearLayout>
+
+    <TextView
+
+        android:id="@+id/description"
+        android:layout_width="326dp"
+        android:layout_height="133dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/edit_bg"
+        android:hint="description"
+        android:textColor="@color/login_form_details" />
+
+    <LinearLayout
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="175dp"
+            android:layout_height="54dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/edit_bg"
+            android:hint="       Bid Amount"
+            android:id="@+id/bid"
+            android:textColor="@color/login_form_details" />
+        <Button
+            android:id="@+id/apply"
+            android:layout_width="162dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Bid"
+            android:background="@drawable/btn_bg"
+            android:textColor="@color/login_form_details"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

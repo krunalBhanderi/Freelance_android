@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/bg_login"
+    android:orientation="vertical"
+    >
+
+
+    <EditText
+        android:id="@+id/title"
+        android:layout_width="322dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edit_bg"
+        android:hint="Enter title"
+        android:padding="16dp"
+        android:textColorHint="@color/login_form_details" />
+
+    <EditText
+        android:id="@+id/budget"
+        android:layout_width="322dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/edit_bg"
+        android:hint="Budget"
+        android:padding="16dp"
+        android:textColorHint="@color/login_form_details" />
+
+    <EditText
+        android:id="@+id/time"
+        android:layout_width="322dp"
+        android:layout_height="69dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/edit_bg"
+        android:hint="Time"
+        android:padding="16dp"
+        android:textColorHint="@color/login_form_details" />
+
+
+    <EditText
+        android:id="@+id/description"
+        android:layout_width="322dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/edit_bg"
+        android:hint="Description"
+
+        android:padding="16dp"
+        android:textColorHint="@color/login_form_details" />
+
+    <MultiAutoCompleteTextView
+        android:id="@+id/skills"
+        android:layout_width="322dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edit_bg"
+        android:hint="required Skills"
+        android:textColor="@color/login_form_details" />
+
+    <Spinner
+        android:id="@+id/type"
+        android:layout_width="326dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edit_bg"></Spinner>
+
+    <Button
+        android:layout_width="316dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/btn_bg"
+        android:text="Post"
+        android:textAllCaps="false"
+        android:id="@+id/post"
+        android:textColor="@color/login_form_details" />
+
+
+
+</LinearLayout>
